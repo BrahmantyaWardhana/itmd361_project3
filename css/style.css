@@ -1,0 +1,156 @@
+/**
+  *navigation css
+  */
+  
+#main-navbar {
+  overflow: hidden;
+  background-color: #87CEFA;
+}
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+  font-size: 20px;
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+}
+#main-navbar ul li a:hover {
+  background-color: #1E90FF;
+  color: white;
+}
+#onpage {
+  text-decoration: underline;
+}
+
+/**
+  *resume css
+  */
+
+.resume-page-background {
+  background-color: #87CEFA;
+}
+#resume-template{
+  width: 70%;
+  margin: 0 auto 5% auto;
+  padding: 1% 1% 1% 1%;
+  background-color: #F5FFFA;
+}
+
+/**
+  *hobbies page css
+  */
+  
+#hobbies-page-background {
+  background-color: #FFC0CB;
+}
+#hobbies-wrapper {
+  width: 1560px;
+  margin: 0 30px;
+}
+#section-one {
+  background-color:#EE82EE;
+  text-align: left;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 10px 30px;
+}
+#section-two {
+  background-color:#D8BFD8;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 10px 30px;
+}
+#section-three {
+  background-color:#FA8072;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 10px 30px;
+}
+
+.img {
+  width: 430px;
+  height: auto;
+}
+
+/**
+  *frusciante page css
+  */
+
+#frusciante-page {
+  background-color: #FFC0CB;
+  background-image: url("frubg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#frusciante-font {
+  font-family: 'New Rocker', cursive;
+  color: white;
+}
+
+#frupage-wrapper {
+  width: 100%;
+}
+#frupage-section-one {
+  background-color:#4682B4;
+  float: left;
+  width: 45%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1%;
+  margin: 0 1.5% 2%;
+}
+#frupage-section-two {
+  background-color:#4682B4;
+  float: left;
+  width: 45%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1%;
+  margin: 0 1% 2%;
+}
+
+/**
+  *general use css
+  */
+  
+.center-text {
+  text-align: center;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+.clear {
+  clear: both;
+}
