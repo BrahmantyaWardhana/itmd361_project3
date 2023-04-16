@@ -1,10 +1,10 @@
 function init(){
-	//alert('it works');
+	alert('it works');
 	var el = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng(41.835117, -87.627130);
+	var myLocation = new google.maps.LatLng(29.979385407842177, 31.134232118390795);
 	var mapOptions = {
 		center: myLocation,
-		zoom: 18,
+		zoom: 10,
 		mapTypeId: google.maps.MapTypeId.SATELLITE,
 		mapTypeControlOptions: {
 			position: google.maps.ControlPosition.BOTTOM_CENTER
@@ -17,7 +17,7 @@ function init(){
 		position: myLocation,
 		map: myMap,
 		animation: google.maps.Animation.BOUNCE,
-		icon: 'iit-icon.png'
+		icon: 'pyramid.png'
 	});
 
 	var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
