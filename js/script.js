@@ -20,7 +20,7 @@ function init(){
 		icon: 'media/pyramid.jpg'
 	});
 
-	var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
+	var contentString = '<h1>The Great Pyramid of Giza</h1><p>One of the seven wonders of the world</p>';
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
