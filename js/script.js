@@ -16,10 +16,19 @@ function init(){
 	var marker = new google.maps.Marker({
 		position: myLocation,
 		map: myMap,
-		animation: google.maps.Animation.BOUNCE,
 		icon: 'media/pyramid.jpg'
 	});
 
+  function toggleBounce() {
+    if (marker.getAnimation() !== null) {
+      marker.setAnimation(null);
+    } else {
+      marker.setAnimation(google.maps.Animation.BOUNCE);
+    }
+  }
+  
+  marker.addListener("click", toggleBounce);
+  
 	var contentString = '<h1>The Great Pyramid of Giza</h1><p>One of the seven wonders of the world</p>';
 
 	var infowindow = new google.maps.InfoWindow({
