@@ -136,13 +136,13 @@
 }
 
 /**
-  * maps cdd
+  * maps css
   */
 
 #wrapper {
 	width: 850px;
 	height: 600px;
-	background-color: #c00;
+	background-color: #87CEFA;
 	margin:0 auto;
 	overflow: hidden;
 }
@@ -150,7 +150,7 @@
 #canvas {
   width: 700px;
 	height: 500px;
-	background-color: #ccc;
+	background-color: #87CEFA;
 	margin: 30px auto;
 }
 
